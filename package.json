@@ -1,0 +1,54 @@
+{
+  "name": "smooth-load",
+  "description": "A GSAP powered, spinner component for Vue.js. Pretty and silky smooth.",
+  "keywords": [
+    "promise",
+    "async",
+    "load",
+    "loading",
+    "loader",
+    "spinner",
+    "animations",
+    "animate",
+    "GSAP",
+    "overlay",
+    "vue",
+    "vue.js"
+  ],
+  "author": "Christopher Gomez",
+  "license": "MIT",
+  "version": "0.0.2",
+  "private": false,
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name smooth-load ./src/index.js",
+    "lint": "vue-cli-service lint",
+    "test": "vue-cli-service test:unit",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "main":"dist/smooth-load.common.js",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "gsap": "^2.1.3"
+  },
+  "files": [
+    "dist/*.{js,css}"
+  ],
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-unit-jest": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.0.2",
+    "vuepress-plugin-demo-block": "^0.7.2"
+  }
+}
