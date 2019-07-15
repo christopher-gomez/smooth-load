@@ -9,6 +9,6 @@ features:
 - title: Vue-Powered
   details: Created with Vue for Vue.
 - title: Performant
-  details: Lightning fast animation with a small footprint of just 41kb.
+  details: Lightning fast animation with a small footprint.
 footer: MIT Licensed | Copyright © 2018-present Christopher Gomez
 ---
