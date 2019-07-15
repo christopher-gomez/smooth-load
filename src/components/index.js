@@ -1,7 +1,5 @@
-import ComponentA from './ComponentA.vue'
-import ComponentB from './ComponentB.vue'
+import SmoothLoad from './SmoothLoad.vue'
 
 export {
-  ComponentA,
-  ComponentB
+  SmoothLoad,
 }

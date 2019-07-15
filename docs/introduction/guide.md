@@ -1,8 +1,6 @@
-# Quick Started
+# Quick Start
 
-A short guide to help user get started in using the library.
-
-You may also describe the features or design of the library briefly.
+Smooth Load is an aesthetically pleasing spinner; wrapped up in a very simple, and easy to use, customizable component.
 
 ## Install
 
@@ -11,25 +9,32 @@ If you are using module bundlers such as Webpack, you can directly include packa
 NPM:
 
 ``` bash
-$ npm install my-lib --save
+$ npm install smooth-load --save
 ```
 
-or Yarn:
+## Register
 
-``` bash
-$ yarn add my-lib
-```
-
-Then register `my-lib` components and directives all at once in your app's entry:
+Then register `smooth-load` globally in your Vue.js app's entry:
 
 ``` js
 // main.js
 import Vue from 'vue'
-import * as mylib from 'my-lib'
+import SmoothLoad from 'smooth-load'
 
-Vue.use(mylib)
+Vue.use(SmoothLoad)
 ```
 
-## i18n
+or import directly into a single component
 
-How to configure the library to use different language.
+``` js
+import SmoothLoad from 'smooth-load'
+export default {
+  name: 'MyComponent',
+  components: {
+    SmoothLoad
+  },
+  data() {
+    return {}
+  },
+}
+```

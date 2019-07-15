@@ -17,8 +17,8 @@
   ],
   "author": "Christopher Gomez",
   "license": "MIT",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.0.2",
+  "private": false,
   "scripts": {
     "build": "vue-cli-service build --target lib --name smooth-load ./src/index.js",
     "lint": "vue-cli-service lint",
@@ -26,6 +26,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "main":"dist/smooth-load.common.js",
   "dependencies": {
     "vue": "^2.6.10",
     "gsap": "^2.1.3"
@@ -47,6 +48,7 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10",
-    "vuepress": "^1.0.2"
+    "vuepress": "^1.0.2",
+    "vuepress-plugin-demo-block": "^0.7.2"
   }
 }

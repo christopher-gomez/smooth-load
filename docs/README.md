@@ -5,10 +5,10 @@ actionText: Get Started →
 actionLink: /introduction/guide
 features:
 - title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+  details: Minimal component with easy to use props for a customizable spinner.
 - title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+  details: Created with Vue for Vue.
 - title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present <My org>
+  details: Lightning fast animation with a small footprint of just 41kb.
+footer: MIT Licensed | Copyright © 2018-present Christopher Gomez
 ---
