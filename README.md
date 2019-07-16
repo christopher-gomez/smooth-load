@@ -29,7 +29,7 @@ Then in your page view template use the component to hide your content while you
 </template>
 ```
 
-Checkout the [docs](https://christophgomez.github.io/smooth-load/components/smooth-load.html) for a more detailed example and prop options!
+Check out the [docs](https://christophgomez.github.io/smooth-load/components/smooth-load.html) for a more detailed example and prop options!
 
 ## Contributing
 
