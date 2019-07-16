@@ -13,9 +13,9 @@ npm install smooth-load
 ## Usage
 
 ```javascript
-import smooth-load from 'smooth-load'
+import smoothLoad from 'smooth-load'
 
-Vue.use(smooth-load)
+Vue.use(smoothLoad)
 ```
 
 Then in your page view template use the component to hide your content while your data loads.
