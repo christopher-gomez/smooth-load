@@ -18,6 +18,19 @@ import smooth-load from 'smooth-load'
 Vue.use(smooth-load)
 ```
 
+Then in your page view template use the component to hide your content while your data loads.
+
+```html
+<template>
+  <div>
+    <smooth-load :loading='loadVariable'/>
+    <p>{{loadedContent}}</p>
+  </div>
+</template>
+```
+
+Checkout the [docs](https://christophgomez.github.io/smooth-load/components/smooth-load.html) for a more detailed example and prop options!
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

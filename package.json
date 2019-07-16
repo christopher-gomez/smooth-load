@@ -17,7 +17,12 @@
   ],
   "author": "Christopher Gomez",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "1.0.0",
+  "homepage":"https://christophgomez.github.io/smooth-load/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophgomez/smooth-load"
+  },
   "private": false,
   "scripts": {
     "build": "vue-cli-service build --target lib --name smooth-load ./src/index.js",
