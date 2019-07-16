@@ -1,5 +1,5 @@
 module.exports = {
-   base: '/',
+   base: '/smooth-load/',
    title: 'Smooth Load',
    description: 'A GSAP powered, spinner component for Vue.js. Pretty and silky smooth.',
    head: [
